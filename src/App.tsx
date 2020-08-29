@@ -1,7 +1,7 @@
 import React, { useState, useCallback, MouseEventHandler } from "react";
 import "./App.css";
 
-const keys = [7, 8, 9, "+", 4, 5, 6, "-", 1, 2, 3, "/", 0, ".", "=", "x"];
+const keys = [7, 8, 9, "+", 4, 5, 6, "-", 1, 2, 3, "/", 0, ".", "=", "*"];
 
 function App() {
 	const [display, setDisplay] = useState("0");
